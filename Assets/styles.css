@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Styling for the header */
+header {
+  background-color: #FCEDDA;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Styling for the navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+/* Styling for the main content area */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for button containers */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Styling for buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #FCEDDA;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #EE4E34;
+}
+
+/* Styling for hidden elements */
+.hidden {
+  display: none;
+}
+
+/* Styling for feedback text */
+#feedback-text {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styling for the leaderboard section */
+#leaderboard {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Styling for individual leaderboard entries */
+.leaderboard-entry {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styling for leaderboard section heading */
+#leaderboard h2 {
+  margin-top: 20px;
+}
+
+/* Styling for input elements of type "text" */
+input[type="text"] {
+  padding: 5px;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+/* Styling for submit button */
+#submit-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #FCEDDA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  border-radius: 5px;
+}
+
+#submit-button:hover {
+  background-color: #EE4E34;
+}
+
+/* Styling for leaderboard buttons */
+#leaderboard-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for highscore link */
+.highscore-link {
+  text-decoration: none;
+  color: #EE4E34; 
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: color 0.3s; 
+}
+
+.highscore-link:hover {
+  color: #EE4E34;
+}
+
+/* Styling for the time container */
+#time-container {
+  color: #FCEDDA;
+  font-weight: bold;
+}
+
+/* Styling for the time left display */
+#time-left {
+  color: #EE4E34;
+}
